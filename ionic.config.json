@@ -1,0 +1,8 @@
+{
+  "name": "violation-fee-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "pro_id": "06acf577"
+}
