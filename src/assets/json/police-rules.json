@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "ruleId": 1,
+            "ruleDetail": "Only white shirt traffic police whose position is equal or above SI (Sub-Inspector) can collect fine for traffic violations"
+        },
+        {
+            "ruleId": 2,
+            "ruleDetail": "Brown shirt police whose position is equal or above Inspector can collect fine for traffic violations outside city limit if there is no position of traffic police"
+        },
+        {
+            "ruleId": 3,
+            "ruleDetail": "Traffic police doesn't have any rights to abuse or hurt public people"
+        },
+        {
+            "ruleId": 4,
+            "ruleDetail": "If police asks for unnecessary bribery or asks people to wait for a long time without proper reason, then people can call 100 and complaint. Immediate action will be taken"
+        },
+        {
+            "ruleId": 5,
+            "ruleDetail": "Traffic police doesn't have rights to take the key from the vehicle. This is allowed only if a person is caught because of racing in public roads"
+        },
+        {
+            "ruleId": 6,
+            "ruleDetail": "As per law all original related documents should be carried while driving. Nowadays in few cities scanned copy/digital copy of the documents can be shown to police if they ask for original documents"
+        }
+    ]
+}

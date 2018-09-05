@@ -1,7 +1,13 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Rules</ion-title>
+    <ion-title>Police Rules</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+    <section>    
+        <ul class="rulesList">
+          <li class="ruleItem" *ngFor="let item of details">{{item.ruleDetail}}</li>
+        </ul>
+      </section>
+</ion-content>

@@ -4,7 +4,31 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+<ion-content padding class="content">
+  <div class="homePageDescription">
+      The Motor Vehicle Act (MVA) 1988, Central Motor Vehicle Rules, 1989 and State Motor Vehicle Rules are the legal instruments for the conduct of road traffic in India. Some of the common offences and the consequent penalties are listed below
+  </div>
+  <div class="loadingDiv">
+      <ion-spinner *ngIf="isLoading"></ion-spinner>
+  </div>
+  <ion-card *ngFor="let item of details">       
+      <ion-card-content>
+        <ion-card-title>
+          <table class="detailsTable">
+            <tr (click)="item.isExpanded = !item.isExpanded">
+              <td class="violationHeader">
+                <span *ngIf="!item.isExpanded"><ion-icon name="arrow-dropright-circle"></ion-icon></span>
+                <span *ngIf="item.isExpanded"><ion-icon name="arrow-dropdown-circle"></ion-icon></span>
+                <span class="headerContent">{{item.header}}</span>
+              </td>
+              <td class="violationFine">₹{{item.penalty}}</td>
+            </tr>
+          </table>
+        </ion-card-title>      
+        <div *ngIf="item.isExpanded" class="itemDetails">
+          <p>Motor Vehicle Act : {{item.mva}}</p>
+          <p>{{item.details}}</p>
+        </div>
+      </ion-card-content>
+  </ion-card>
 </ion-content>

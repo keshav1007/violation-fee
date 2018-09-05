@@ -1,0 +1,324 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "header": "Not carrying valid licence while driving",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 2,
+            "header": "Not carrying documents as required",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 3,
+            "header": "Stopping at Pedestrian Crossing or Crossing Stop Line",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 4,
+            "header": "Moving against One-Way",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 5,
+            "header": "Driving without Insurance",
+            "mva": 196,
+            "penalty": 1000,
+            "details": "Fine up to Rs 1000 or Imprisonment up to 3 months or both",
+            "isExpanded": false
+        },
+        {
+            "id": 6,
+            "header": "Jumping Signal (driving at red light)",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 7,
+            "header": "Driving on Footpath",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 8,
+            "header": "Dangerous Lane cutting",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 9,
+            "header": "Parking Violations",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 10,
+            "header": "Horn offences",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 11,
+            "header": "Number Plate Offences",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 12,
+            "header": "Improper use of Headlights",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 13,
+            "header": "Charging Excess Fare",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 14,
+            "header": "Misbehavior with Passenger",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 15,
+            "header": "Refusal to ply for Hire",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 16,
+            "header": "Breach of rules regarding carriage of hazardous goods",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 17,
+            "header": "Using Mobile Phones while driving",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 18,
+            "header": "Driving without Helmet",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 19,
+            "header": "Breach of order, refusal to give information",
+            "mva": 177,
+            "penalty": 500,
+            "details": "Fine up to Rs 500 or Imprisonment up to 1 month or both.",
+            "isExpanded": false
+        },
+        {
+            "id": 20,
+            "header": "Allowing the vehicle to be driven by a person who does not possess a valid licence",
+            "mva": 180,
+            "penalty": 1000,
+            "details": "Fine up to Rs 1000 or Imprisonment up to 3 months or both",
+            "isExpanded": false
+        },
+        {
+            "id": 21,
+            "header": "Driving without valid licence",
+            "mva": 181,
+            "penalty": 500,
+            "details": "Fine up to Rs 500 or Imprisonment up to 3 months or both",
+            "isExpanded": false
+        },
+        {
+            "id": 22,
+            "header": "Offences related to driving license",
+            "mva": 182,
+            "penalty": 500,
+            "details": "Fine up to Rs 500 or Imprisonment up to 3 months or both",
+            "isExpanded": false
+        },
+        {
+            "id": 3,
+            "header": "Dangerous Lane cutting",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 23,
+            "header": "Lack of proper maintenance and structure of vehicle",
+            "mva": "182(A)",
+            "penalty": 1000,
+            "details": "First Offence: Rs. 1000; Subsequent Offence: Rs. 5000",
+            "isExpanded": false
+        },
+        {
+            "id": 24,
+            "header": "Driving at a speed exceeding as mentioned in MVA:112",
+            "mva": 183,
+            "penalty": 400,
+            "details": "First Offence: Rs. 400; Subsequent Offence: Rs. 1000",
+            "isExpanded": false
+        },
+        {
+            "id": 25,
+            "header": "Dangerous or Reckless Driving",
+            "mva": 184,
+            "penalty": 1000,
+            "details": "First Offence: Fine up to Rs. 1000 or Imprisonment up to 6 months or both. Subsequent Offence: Fine up to Rs. 2000 or Imprisonment up to 2 yrs or both",
+            "isExpanded": false
+        },
+        {
+            "id": 26,
+            "header": "Driving under influence of Drugs or Alcohols",
+            "mva": 185,
+            "penalty": 2000,
+            "details": "First Offence: Fine up to Rs. 2000 or Imprisonment up to 6 months or both. Subsequent Offence: Fine up to Rs. 3000 or Imprisonment up to 2 yrs or both",
+            "isExpanded": false
+        },
+        {
+            "id": 27,
+            "header": "Accidental Offences",
+            "mva": 187,
+            "penalty": 500,
+            "details": "First Offence: Fine up to Rs. 500 or Imprisonment up to 3 months or both. Subsequent Offence: Fine up to Rs. 1000 or Imprisonment up to 6 months or both",
+            "isExpanded": false
+        },
+        {
+            "id": 28,
+            "header": "Illegal racing on road",
+            "mva": 189,
+            "penalty": 500,
+            "details": "Fine up to Rs 500 or Imprisonment up to 1 month or both",
+            "isExpanded": false
+        },
+        {
+            "id": 29,
+            "header": "Using vehicle in Unsafe conditions",
+            "mva": 190,
+            "penalty": 250,
+            "details": "First Offence: Fine up to Rs. 250. Subsequent Offence: Fine up to Rs. 1000 or Imprisonment up to 2 yrs or both",
+            "isExpanded": false
+        },
+        {
+            "id": 30,
+            "header": "Using Loudspeaker beyond specified limit",
+            "mva": "190(2)",
+            "penalty": 1000,
+            "details": "First Offence: Rs. 1000; Subsequent Offence: Rs. 2000",
+            "isExpanded": false
+        },
+        {
+            "id": 31,
+            "header": "Carriage of goods which are of dangerous & hazardous nature to human life",
+            "mva": "190(3)",
+            "penalty": 3000,
+            "details": "First Offence: Fine up to Rs. 3000 or Imprisonment up to 1 year or both. Subsequent Offence: Fine up to Rs. 5000 or Imprisonment up to 1 years or both",
+            "isExpanded": false
+        },
+        {
+            "id": 32,
+            "header": "Driving without Registration and valid Permit",
+            "mva": 192,
+            "penalty": 5000,
+            "details": "First Offence: Fine up to Rs. 5000 (not less than Rs. 2000) or Imprisonment up to 3 months or both. Subsequent Offence: Fine up to Rs. 10000 (not less than Rs. 5000) or Imprisonment up to 1 yr or both",
+            "isExpanded": false
+        },
+        {
+            "id": 33,
+            "header": "Driving without valid Fitness Certificate",
+            "mva": 192,
+            "penalty": 5000,
+            "details": "First Offence: Fine up to Rs. 5000 (not less than Rs. 2000) or Imprisonment up to 3 months or both. Subsequent Offence: Fine up to Rs. 10000 (not less than Rs. 5000) or Imprisonment up to 1 yr or both",
+            "isExpanded": false
+        },
+        {
+            "id": 34,
+            "header": "Using Private vehicle for Commercial purposes",
+            "mva": 192,
+            "penalty": 5000,
+            "details": "First Offence: Fine up to Rs. 5000 (not less than Rs. 2000) or Imprisonment up to 3 months or both. Subsequent Offence: Fine up to Rs. 10000 (not less than Rs. 5000) or Imprisonment up to 1 yr or both",
+            "isExpanded": false
+        },
+        {
+            "id": 35,
+            "header": "Breach of Permit conditions",
+            "mva": 192,
+            "penalty": 5000,
+            "details": "First Offence: Fine up to Rs. 5000 (not less than Rs. 2000) or Imprisonment up to 3 months or both. Subsequent Offence: Fine up to Rs. 10000 (not less than Rs. 5000) or Imprisonment up to 1 yr or both",
+            "isExpanded": false
+        },
+        {
+            "id": 36,
+            "header": "Overloading a vehicle beyond extent limit",
+            "mva": 194,
+            "penalty": 2000,
+            "details": "Fine up to Rs 2000 and Rs. 1000 per tonne of extra load",
+            "isExpanded": false
+        },
+        {            
+            "id": 37,
+            "header": "Overtaking dangerously",
+            "mva": 177,
+            "penalty": 100,
+            "details": "First Offence: Fine up to Rs. 100; Subsequent Offence: Fine up to Rs. 300",
+            "isExpanded": false
+        },
+        {
+            "id": 38,
+            "header": "Driving of vehicle without legal authority",
+            "mva": 197,
+            "penalty": 500,
+            "details": "Fine up to Rs 500 or Imprisonment up to 3 months or both",
+            "isExpanded": false
+        },
+        {
+            "id": 39,
+            "header": "Disturbance in free flow of traffic",
+            "mva": 201,
+            "penalty": 50,
+            "details": "Fine up to Rs 50 per hour",
+            "isExpanded": false
+        }
+    ]
+}

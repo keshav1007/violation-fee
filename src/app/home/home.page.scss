@@ -1,1 +1,30 @@
-
+.content{
+    .homePageDescription{
+        padding: 10px;
+    }
+    .loadingDiv{
+        text-align: center;
+    }
+    .detailsTable{
+        width: 100%;
+        margin-bottom: 10px;
+        .violationHeader{
+            font-size: 20px;
+            font-weight: 600;
+            .headerContent{
+                padding-left: 5px;
+            }
+        }
+        .violationFine{
+            font-weight: 600;
+            width: 25%;
+            border-left: 2px solid lightgray;
+            padding-left: 5px;
+        }
+    }
+    .itemDetails{
+        
+        border-top: 2px solid lightgray;
+        padding-top: 10px;
+    }
+}
