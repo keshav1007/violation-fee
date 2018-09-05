@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Violation and Fine</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -11,7 +11,7 @@
   <div class="loadingDiv">
       <ion-spinner *ngIf="isLoading"></ion-spinner>
   </div>
-  <ion-card *ngFor="let item of details">       
+  <ion-card *ngFor="let item of details" class="ruleCard">       
       <ion-card-content>
         <ion-card-title>
           <table class="detailsTable">
