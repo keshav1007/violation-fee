@@ -11,14 +11,17 @@
   <div class="loadingDiv">
       <ion-spinner *ngIf="isLoading"></ion-spinner>
   </div>
-  <ion-card *ngFor="let item of details" class="ruleCard">       
+  <ion-toolbar>
+      <ion-searchbar [(ngModel)]="searchText" placeholder="Search (Ex: Helmet)" (ionClear)="resetFilter()"></ion-searchbar>
+    </ion-toolbar>
+  <ion-card *ngFor="let item of details |rulesfilter:searchText" class="ruleCard">       
       <ion-card-content>
         <ion-card-title>
           <table class="detailsTable">
             <tr (click)="item.isExpanded = !item.isExpanded">
               <td class="violationHeader">
-                <span *ngIf="!item.isExpanded"><ion-icon name="arrow-dropright-circle"></ion-icon></span>
-                <span *ngIf="item.isExpanded"><ion-icon name="arrow-dropdown-circle"></ion-icon></span>
+                <span *ngIf="!item.isExpanded"><ion-icon name="arrow-dropright-circle" class="expandCollapseIcon"></ion-icon></span>
+                <span *ngIf="item.isExpanded"><ion-icon name="arrow-dropdown-circle" class="expandCollapseIcon"></ion-icon></span>
                 <span class="headerContent">{{item.header}}</span>
               </td>
               <td class="violationFine">₹{{item.penalty}}</td>

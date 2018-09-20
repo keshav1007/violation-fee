@@ -9,6 +9,9 @@ import { HttpClient } from '@angular/common/http';
 export class HomePage implements OnInit{
   public isLoading: boolean = true;
   public details: any = [];
+  public searchText: string = '';
+
+  private detailsCopy: any = [];
 
   constructor(private http: HttpClient){
 
@@ -23,8 +26,14 @@ export class HomePage implements OnInit{
     this.isLoading = true;
     this.getDetailsApi().subscribe((data: any)=>{
       this.details = (data && data.items) || [];
+      this.detailsCopy = JSON.parse(JSON.stringify(this.details));
       this.isLoading = false;
     });
+  }
+
+  public resetFilter(){
+    this.searchText = '';
+    this.details = JSON.parse(JSON.stringify(this.detailsCopy));
   }
 
   ngOnInit(){
